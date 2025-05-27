@@ -1,0 +1,221 @@
+#pop{
+    border: 2px solid red;
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.yyu{
+    width: 600px;
+    height: 100px;
+    background-color: yellow;
+    margin: 0 auto;
+     margin-top: 50px;
+     z-index: 3;
+}
+.h1{
+    width: 400px;
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 100px;
+    z-index: 2;
+    animation: new1 2s infinite linear;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: initial;
+}
+.button{
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 35px;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: 85px;
+    margin-right: 100px;
+    z-index: 2;
+    animation: new2 2s infinite linear;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: initial;
+    right: 20px;
+}
+@keyframes new2{
+    from{
+        margin-right: 0px;
+    }
+    to{
+        margin-right: 100px;
+    }
+}
+@keyframes new1{
+    from{
+        margin-left: 0px;
+    }
+    to{
+        margin-left: 100px;
+    }
+}
+.h1-2{
+    position: relative;
+    width: 200px;
+    margin-top: 85px;
+    margin-left: 0px;
+    z-index: 2;
+    animation: new1 2s infinite linear;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation: duck 2s linear;
+    animation-delay: initial;
+}
+.om{
+    position: relative;
+    margin: 0 auto;
+    /* background-color: gray;
+    border: 2px solid black; */
+    height: 35px;
+    width: 200px;
+     }
+
+.om1 {position: absolute;
+}
+.om1:hover {color: yellow;
+    cursor: pointer;
+}
+.om2 {position: absolute;
+    margin-left: 75px;
+    }
+.om2:hover{
+    color: yellow;
+    cursor: pointer;
+}
+.om3 {position: absolute;
+    margin-left:150px;}
+.om3:hover{
+    color: yellow;
+    cursor: pointer;
+}
+.o2{
+    /* margin-top: 0 ;
+    padding-top: 50px; */
+    width: 100%;
+    height: 300px;
+}
+.hg{
+    animation: dog 3s linear;
+}
+@keyframes dog {
+    0%{margin-left: 0px;}
+    100%{margin-left: 100px;}
+}
+.yu{
+    width:400px;
+    position: relative;
+    
+}
+.i3{
+    position: relative;
+    left: 600px;
+    bottom: 150px;
+    width: 200px;
+}
+.oooi{
+    margin-left: 40px;
+    width: 600px;
+    height: 400px;
+}
+.oooo{
+    width: 600px;
+    height: 400px;
+    position: relative;
+}
+.iii{
+    border-radius: 50px;
+    background-color: rgba(224, 224, 13, 0.909);
+    font-size: 20px;
+    border-color: rgba(224, 224, 13, 0.909);
+}
+.lll{
+    color: rgba(224, 224, 13, 0.909);
+}
+.po{
+    position: absolute;
+    width: 350px;
+    height: 240px;
+    right: 1500px;
+    top: 900px;
+    animation: cat 5s linear;
+}
+@keyframes  cat {
+    0%{}
+    100%{transform: translate(160%);}
+}
+.ppp{
+    animation: duck 2s linear;
+}
+@keyframes  duck {
+    0%{}
+    100%{transform: translate(200px);}
+}
+.sss{
+    width: 300px;
+    height: 325px;
+    border: black 2px solid;
+    position: relative;
+    left: 250px;  
+    background-color: yellow;
+}
+.ssd{
+    width: 300px;
+    height: 325px;
+    border: black 2px solid;
+    position: relative;
+    left: 580px; 
+    bottom: 325px;  
+}
+.ssf{
+    width: 300px;
+    height: 325px;
+    border: black 2px solid;
+    position: relative;
+    left: 910px; 
+    bottom: 650px;
+    background-color: yellow;
+}
+.ssg{
+    width: 300px;
+    height: 325px;
+    border: black 2px solid;
+    position: relative;
+    left: 250px;
+    bottom: 650px;  
+}
+.ssh{
+    width: 300px;
+    height: 325px;
+    border: black 2px solid;
+    position: relative;
+    left: 580px;
+    bottom: 975px;
+    background-color: yellow; 
+}
+.ssj{
+    width: 300px;
+    height: 325px;
+    border: black 2px solid;
+    position: relative;
+    left: 910px;
+    bottom: 1300px;
+}
+.img{
+     width: 300px;
+     height: 200px;
+}
+.poo{
+    position: relative;
+    bottom: 1200px;
+}
+.ssk{
+    width: 300px;
+    position: relative; 
+    bottom: 1200px;
+}

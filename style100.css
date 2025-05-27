@@ -1,0 +1,140 @@
+body{
+background-image: url(54580.png);
+    z-index: 5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.ppo{
+    margin: 0;
+    padding-top:  80px; 
+font-family: cursive;
+z-index: 4;
+width: 100%;
+height: 70px;
+background: linear-gradient(90deg,rgba(27, 27, 31, 1) 0%, rgba(122, 118, 118, 1) 52%, rgba(245, 245, 245, 1) 100%);
+}
+.tju{
+    margin-top: -20px;
+font-family: cursive;
+    margin-left: 0px;
+}
+a{
+    color: white;
+font-family: cursive;
+    text-decoration: none;
+}
+.jjj{
+    position: absolute;
+    border: 2px solid white;
+    background-color: black;
+    margin-left: 900px;
+font-family: cursive;
+border-radius :25px; 
+    margin-top: -120px;
+    text-align: center;
+    height: 100px;
+    width: 350px;
+}
+
+         button {background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8  51%, #757F9A  100%)}
+         button {
+            margin: 10px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+                border-radius: 25px;
+            display: block;
+               color: white;
+    margin-left: 30%;
+font-family: cursive;
+    font-size: 25px;
+    margin-top: 15px;
+          }
+
+          button:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+/* button:hover{
+    font-size: 30px;
+font-family: cursive;
+    margin-top: 12px;
+    margin-left: 30%;
+} */
+img{
+        width: 450px;
+    height: 300px;
+    animation-iteration-count:1;
+font-family: cursive;
+    animation-name: tractor;
+    animation-duration:2s;
+    /* border: 2px solid white; */
+    border-radius: 25px;
+    animation-fill-mode: both;
+}
+.ret{
+font-family: cursive;
+    position: relative;
+    margin-top: 100px;
+}
+.lp{
+    position: absolute;
+    width: 450px;
+font-family: cursive;
+    height: 300px;
+    padding-bottom: 75px;
+    margin-left: 650px;
+    background-image: linear-gradient(to right, #000000 0%, #4a4b4e  51%, #ffffff  100%)    ; 
+    border-radius: 25px;
+    /* position: relative; */
+ 
+    animation-iteration-count:1;
+    animation-name: tractor;
+    animation-duration:2s;
+    border: 2px solid white;
+    animation-fill-mode: both;
+    /* animation: tractor 10s linear 2.5s infinite alternate none; */
+
+}
+.li{
+    background-image: linear-gradient(to right, #000000 0%, #4a4b4e  51%, #ffffff  100%)    ; 
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    padding-bottom: 75px;
+    margin-left: 150px;
+    margin-bottom: 200px;
+    background-color: black;
+font-family: cursive;
+    border-radius: 25px;
+    /* position: relative; */
+ 
+    animation-iteration-count:1;
+    animation-name: tractor;
+    animation-duration:2s;
+    border: 2px solid white;
+    animation-fill-mode: both;
+    /* animation: tractor 10s linear 2.5s infinite alternate none; */
+}
+p{
+font-family: cursive;
+}
+@keyframes tractor {
+from{
+    width: 0px;
+    height: 0px;
+}
+to{
+    transform: rotate(360px);
+    width: 450px;
+    height: 300px;
+}
+}
+
